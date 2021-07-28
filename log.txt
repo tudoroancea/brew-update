@@ -1,0 +1,276 @@
+Updated Homebrew from 3e52e8b48 to 89b861915.
+Updated 4 taps (homebrew/core, homebrew/cask, homebrew/cask-fonts and dart-lang/dart).
+
+You have 1 outdated formula and 1 outdated cask installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+==> New Formulae
+umple
+==> Updated Formulae
+alp
+angle-grinder
+armadillo
+artifactory
+aws-es-proxy
+aws-sdk-cpp
+awscli
+benthos
+borgmatic
+cassandra
+ccfits
+choose-rust
+cloud-nuke
+cmake
+conan
+conftest
+crystal
+cubejs-cli
+dotnet
+driftctl
+dua-cli
+duckscript
+exploitdb
+feh
+fltk
+flyway
+frugal
+gauge
+geph4
+gpg-tui
+grokmirror
+igv
+imlib2
+inetutils
+inxi
+ipinfo-cli
+jenkins
+krb5
+libgnt
+liquibase
+logtalk
+mafft
+markdownlint-cli
+memcached
+micronaut
+minio
+minio-mc
+moto
+mtools
+mydumper
+mysql-client
+mysql-connector-c++
+ncspot
+netlify-cli
+newrelic-cli
+nicotine-plus
+nuclei
+oci-cli
+openj9
+payara
+pdns
+percona-server
+pioneer
+plantuml
+pspg
+rke
+rust-analyzer
+semgrep
+server-go
+taskwarrior-tui
+tfsec
+trunk
+webpack
+xh
+youtubedr
+==> Updated Casks
+7777
+android-platform-tools
+aptible
+atom
+audacity
+beeper
+beersmith
+blitz
+brave-browser
+bricklink-studio
+calcservice
+camerabag-photo
+cave-story
+cmake
+datagrip
+evernote
+flameshot
+font-iosevka
+font-iosevka-aile
+font-iosevka-curly
+font-iosevka-curly-slab
+font-iosevka-etoile
+font-iosevka-slab
+font-iosevka-ss01
+font-iosevka-ss02
+font-iosevka-ss03
+font-iosevka-ss04
+font-iosevka-ss05
+font-iosevka-ss06
+font-iosevka-ss07
+font-iosevka-ss08
+font-iosevka-ss09
+font-iosevka-ss10
+font-iosevka-ss11
+font-iosevka-ss12
+font-iosevka-ss13
+font-iosevka-ss14
+font-iosevka-ss15
+font-iosevka-ss16
+font-iosevka-ss17
+font-iosevka-ss18
+font-jetbrains-mono
+font-sarasa-gothic
+geph
+gramps
+intellij-idea
+intellij-idea-ce
+ltspice
+lunar
+parallels
+parallels-toolbox
+protopie
+pynsource
+rubymine
+sapmachine-jdk
+session-manager-plugin
+sqlight
+tableau
+teamviewer
+tencent-lemon
+tutanota
+vagrant
+==> Deleted Casks
+beautune
+blue-jeans-browser-plugin
+caramba-switcher
+
+
+ Homebrew upgrade log at 28-07-2021
+==> Upgrading 1 outdated package:
+cmake 3.21.0 -> 3.21.1
+==> Upgrading cmake
+  3.21.0 -> 3.21.1 
+==> Downloading https://ghcr.io/v2/homebrew/core/cmake/manifests/3.21.1
+==> Downloading https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:811eb99b94e5359a9412a1cc4dbbcf213f3f79426fdd0983e422be67c701e1e3
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:811eb99b94e5359a9412a1cc4dbbcf213f3f79426fdd0983e422be67c701e1e3?se=2021-07-28T09%3A20%3A00Z&sig=WeGowAf9r6JZbWbhYTxpOH%2F4V2qunfNcoLCuIh0FQyc%3D&sp=r&spr=https&sr=b&sv=2019-12-12
+==> Pouring cmake--3.21.1.big_sur.bottle.tar.gz
+==> Caveats
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/cmake
+==> Summary
+🍺  /usr/local/Cellar/cmake/3.21.1: 6,615 files, 72.6MB
+Removing: /usr/local/Cellar/cmake/3.21.0... (6,611 files, 72.7MB)
+Removing: /Users/tudoroancea/Library/Caches/Homebrew/cmake--3.21.0... (18.8MB)
+==> Casks with 'auto_updates' or 'version :latest' will not be upgraded; pass `--greedy` to upgrade them.
+==> Upgrading 1 outdated package:
+font-jetbrains-mono 2.225 -> 2.241
+==> Upgrading font-jetbrains-mono
+==> Downloading https://github.com/JetBrains/JetBrainsMono/releases/download/v2.241/JetBrainsMono-2.241.zip
+==> Downloading from https://github-releases.githubusercontent.com/173314762/05256e77-bd35-4221-bb1f-b4eac9bb7255?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210728%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210728T091033Z&X-Amz-Expires=300&X-Amz-Signature=5c1fb7b8daf67ff03f4dd60843619e7896f221cdfcaf6a6eac5adedd3dd21f37&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=173314762&response-content-disposition=attachment%3B%20filename%3DJetBrainsMono-2.241.zip&response-content-type=application%2Foctet-stream
+==> Backing Font 'JetBrainsMono[wght].ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/variable/JetBrainsMono[wght].ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono[wght].ttf'
+==> Backing Font 'JetBrainsMono-BoldItalic.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMono-BoldItalic.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-BoldItalic.ttf'
+==> Backing Font 'JetBrainsMono-ExtraBold.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMono-ExtraBold.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-ExtraBold.ttf'
+==> Backing Font 'JetBrainsMono-ExtraBoldItalic.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMono-ExtraBoldItalic.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-ExtraBoldItalic.ttf'
+==> Backing Font 'JetBrainsMono-ExtraLight.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMono-ExtraLight.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-ExtraLight.ttf'
+==> Backing Font 'JetBrainsMono-ExtraLightItalic.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMono-ExtraLightItalic.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-ExtraLightItalic.ttf'
+==> Backing Font 'JetBrainsMono-Italic.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMono-Italic.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-Italic.ttf'
+==> Backing Font 'JetBrainsMono-Light.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMono-Light.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-Light.ttf'
+==> Backing Font 'JetBrainsMono-LightItalic.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMono-LightItalic.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-LightItalic.ttf'
+==> Backing Font 'JetBrainsMono-Medium.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMono-Medium.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-Medium.ttf'
+==> Backing Font 'JetBrainsMono-MediumItalic.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMono-MediumItalic.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-MediumItalic.ttf'
+==> Backing Font 'JetBrainsMono-Regular.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMono-Regular.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-Regular.ttf'
+==> Backing Font 'JetBrainsMono-Thin.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMono-Thin.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-Thin.ttf'
+==> Backing Font 'JetBrainsMono-ThinItalic.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMono-ThinItalic.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-ThinItalic.ttf'
+==> Backing Font 'JetBrainsMonoNL-Bold.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMonoNL-Bold.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-Bold.ttf'
+==> Backing Font 'JetBrainsMonoNL-BoldItalic.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMonoNL-BoldItalic.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-BoldItalic.ttf'
+==> Backing Font 'JetBrainsMonoNL-ExtraBold.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMonoNL-ExtraBold.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-ExtraBold.ttf'
+==> Backing Font 'JetBrainsMonoNL-ExtraBoldItalic.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMonoNL-ExtraBoldItalic.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-ExtraBoldItalic.ttf'
+==> Backing Font 'JetBrainsMonoNL-ExtraLight.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMonoNL-ExtraLight.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-ExtraLight.ttf'
+==> Backing Font 'JetBrainsMonoNL-ExtraLightItalic.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMonoNL-ExtraLightItalic.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-ExtraLightItalic.ttf'
+==> Backing Font 'JetBrainsMonoNL-Italic.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMonoNL-Italic.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-Italic.ttf'
+==> Backing Font 'JetBrainsMonoNL-Light.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMonoNL-Light.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-Light.ttf'
+==> Backing Font 'JetBrainsMonoNL-LightItalic.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMonoNL-LightItalic.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-LightItalic.ttf'
+==> Backing Font 'JetBrainsMonoNL-Medium.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMonoNL-Medium.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-Medium.ttf'
+==> Backing Font 'JetBrainsMonoNL-MediumItalic.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMonoNL-MediumItalic.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-MediumItalic.ttf'
+==> Backing Font 'JetBrainsMonoNL-Regular.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMonoNL-Regular.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-Regular.ttf'
+==> Backing Font 'JetBrainsMonoNL-Thin.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMonoNL-Thin.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-Thin.ttf'
+==> Backing Font 'JetBrainsMonoNL-ThinItalic.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMonoNL-ThinItalic.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-ThinItalic.ttf'
+==> Backing Font 'JetBrainsMono-Italic[wght].ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/variable/JetBrainsMono-Italic[wght].ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-Italic[wght].ttf'
+==> Backing Font 'JetBrainsMono-Bold.ttf' up to '/usr/local/Caskroom/font-jetbrains-mono/2.225/fonts/ttf/JetBrainsMono-Bold.ttf'
+==> Removing Font '/Users/tudoroancea/Library/Fonts/JetBrainsMono-Bold.ttf'
+==> Moving Font 'JetBrainsMono[wght].ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono[wght].ttf'
+==> Moving Font 'JetBrainsMono-BoldItalic.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-BoldItalic.ttf'
+==> Moving Font 'JetBrainsMono-ExtraBold.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-ExtraBold.ttf'
+==> Moving Font 'JetBrainsMono-ExtraBoldItalic.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-ExtraBoldItalic.ttf'
+==> Moving Font 'JetBrainsMono-ExtraLight.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-ExtraLight.ttf'
+==> Moving Font 'JetBrainsMono-ExtraLightItalic.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-ExtraLightItalic.ttf'
+==> Moving Font 'JetBrainsMono-Italic.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-Italic.ttf'
+==> Moving Font 'JetBrainsMono-Light.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-Light.ttf'
+==> Moving Font 'JetBrainsMono-LightItalic.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-LightItalic.ttf'
+==> Moving Font 'JetBrainsMono-Medium.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-Medium.ttf'
+==> Moving Font 'JetBrainsMono-MediumItalic.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-MediumItalic.ttf'
+==> Moving Font 'JetBrainsMono-Regular.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-Regular.ttf'
+==> Moving Font 'JetBrainsMono-Thin.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-Thin.ttf'
+==> Moving Font 'JetBrainsMono-ThinItalic.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-ThinItalic.ttf'
+==> Moving Font 'JetBrainsMonoNL-Bold.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-Bold.ttf'
+==> Moving Font 'JetBrainsMonoNL-BoldItalic.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-BoldItalic.ttf'
+==> Moving Font 'JetBrainsMonoNL-ExtraBold.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-ExtraBold.ttf'
+==> Moving Font 'JetBrainsMonoNL-ExtraBoldItalic.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-ExtraBoldItalic.ttf'
+==> Moving Font 'JetBrainsMonoNL-ExtraLight.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-ExtraLight.ttf'
+==> Moving Font 'JetBrainsMonoNL-ExtraLightItalic.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-ExtraLightItalic.ttf'
+==> Moving Font 'JetBrainsMonoNL-Italic.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-Italic.ttf'
+==> Moving Font 'JetBrainsMonoNL-Light.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-Light.ttf'
+==> Moving Font 'JetBrainsMonoNL-LightItalic.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-LightItalic.ttf'
+==> Moving Font 'JetBrainsMonoNL-Medium.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-Medium.ttf'
+==> Moving Font 'JetBrainsMonoNL-MediumItalic.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-MediumItalic.ttf'
+==> Moving Font 'JetBrainsMonoNL-Regular.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-Regular.ttf'
+==> Moving Font 'JetBrainsMonoNL-Thin.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-Thin.ttf'
+==> Moving Font 'JetBrainsMonoNL-ThinItalic.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMonoNL-ThinItalic.ttf'
+==> Moving Font 'JetBrainsMono-Italic[wght].ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-Italic[wght].ttf'
+==> Moving Font 'JetBrainsMono-Bold.ttf' to '/Users/tudoroancea/Library/Fonts/JetBrainsMono-Bold.ttf'
+==> Purging files for version 2.225 of Cask font-jetbrains-mono
+🍺  font-jetbrains-mono was successfully upgraded!
+==> Caveats
+==> cmake
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/cmake
+Removing: /Users/tudoroancea/Library/Caches/Homebrew/Cask/font-jetbrains-mono--2.225.zip... (2.8MB)
+Removing: /Users/tudoroancea/Library/Logs/Homebrew/gdbm... (64B)
+Removing: /Users/tudoroancea/Library/Logs/Homebrew/cmake... (64B)
+Removing: /Users/tudoroancea/Library/Logs/Homebrew/sqlite... (64B)
+Removing: /Users/tudoroancea/Library/Logs/Homebrew/node... (64B)
