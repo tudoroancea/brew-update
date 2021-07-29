@@ -1,7 +1,7 @@
 #!/usr/bin/zsh
 ZSHRC_FILE="/Users/tudoroancea/.zshrc"
 BREW_UPDATE_DIR="/Users/tudoroancea/Documents/projets/brew-update/"
-BREW_UPDATE_LOG_FILE=$BREW_UPDATE_DIR/"log.txt"
+BREW_UPDATE_LOG_FILE=$BREW_UPDATE_DIR"log.txt"
 LINE=`grep 'LAST_BREW_UPDATE' $ZSHRC_FILE`
 OLD_DATE=${LINE:24}
 CURRENT_DATE=`date +%d-%m`
