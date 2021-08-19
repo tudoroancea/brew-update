@@ -16,7 +16,20 @@ When called, the script compares the current date and a global env variable (def
 
 ## How to use it
 
-Just replace the variables `ZSHRC_FILE` and `BREW_UPDATE_DIR` with your custom values, in iTerm2 Preferences > Profiles > Your profile > Command add the following command `zsh <path_to_project>/brew-update.zsh`, and you're ready to go !
+Just replace the variables `ZSHRC_FILE` and `BREW_UPDATE_DIR` with your custom values, in iTerm2 Preferences > Profiles > Your profile > Command add the following command   
+```
+zsh <path_to_project>/brew-update.zsh
+``` 
+and you're ready to go !
+
+> _**Tip:**_ if you want to execute the shell script with  
+> ```
+> ./<path_to_project>/brew-update.zsh
+> ```  
+> you have to properly set the first line with the path of a shell executable and write the command   
+> ```
+> chmod +x <path_to_project>/brew-update.zsh
+> ```
 
 ## Warning:
 
