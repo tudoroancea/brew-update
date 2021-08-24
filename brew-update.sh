@@ -21,7 +21,9 @@ then
         echo 'Nothing to update.'
     fi
     # This syntax of sed is macOS specific. On Linux, you should not need the empty ''
-    sed -i '' 's/LAST_BREW_UPDATE='$DATE'/LAST_BREW_UPDATE='$CURRENT_DATE'/g' $FILE_NAME
+    sed -i '' -e 's/export LAST_BREW_UPDATE='$OLD_DATE'/export LAST_BREW_UPDATE='$CURRENT_DATE'/g' $ZSHRC_FILE
+else 
+    echo 'Already updated today.'
 fi
 
 exit 0
