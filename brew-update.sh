@@ -3,6 +3,7 @@ ZSHRC_FILE="/Users/tudoroancea/.zshrc"
 BREW_UPDATE_DIR="/Users/tudoroancea/Documents/projets/brew-update/"
 BREW_UPDATE_LOG_FILE=$BREW_UPDATE_DIR"log.txt"
 LINE=`grep 'LAST_BREW_UPDATE' $ZSHRC_FILE`
+echo $LINE' ; '$(grep 'LAST_BREW_UPDATE' $ZSHRC_FILE)
 OLD_DATE=${LINE:24}
 CURRENT_DATE=`date +%d-%m`
 if [ $OLD_DATE != $CURRENT_DATE ]
@@ -21,7 +22,9 @@ then
         echo 'Nothing to update.'
     fi
     # This syntax of sed is macOS specific. On Linux, you should not need the empty ''
-    sed -i '' 's/LAST_BREW_UPDATE='$DATE'/LAST_BREW_UPDATE='$CURRENT_DATE'/g' $FILE_NAME
+    sed -i '' -e 's/export LAST_BREW_UPDATE='$OLD_DATE'/export LAST_BREW_UPDATE='$CURRENT_DATE'/g' $ZSHRC_FILE
+else 
+    echo 'Already updated today.'
 fi
 
 exit 0
