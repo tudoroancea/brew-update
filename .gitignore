@@ -1,3 +1,2 @@
 .vscode
-test.txt
-log.txt
+*.txt
